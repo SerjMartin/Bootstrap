@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/ef15e4e2a8.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="Bootstrap/css/style.css">
 </head>
 <body>
     <nav class= "navbar navbar-light bg-light navbar-expand-sm"> <!--bg-light (background-light)-->
@@ -50,27 +51,31 @@
                     6! <a href="">See here for details!</a>
                 </div>
             </div>
-        </div> <!--mt (top margine)-->
-        <!-- Callout -->
-        <div class="row">
-            <div class="col-12 mt-2">
-                <section class="callout jumbotron text-center">
-                    <h1>The finest whiskeys delivered to your doorstep.</h1>
-                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month. 
-                        <s class="d-none d-sm-inline">€19.99</s>
-                        <span classd="d-inline d-sm-none"><br></span> 
-                        <strong><mark>First one is free!</mark></strong></p>
-                        <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sigh Up!</button>
-                    <p class="text-muted"><small>You must be over 18 to sigh up to our servise. Please, drink responsibly.</small></p>
-                </section>
-            </div>
         </div>
+    </div> <!--mt (top margine)-->
+    <div class="container callout-container"> <!-- Callout -->
+        
+            <div class="row">
+                <div class="col-12">
+                    <section class="callout jumbotron text-center">
+                        <h1>The finest whiskeys delivered to your doorstep.</h1>
+                        <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
+                            <s class="d-none d-sm-inline">€19.99</s>
+                            <span class="d-inline d-sm-none"><br></span> 
+                            <strong><mark>First one is free!</mark></strong></p>
+                            <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sigh Up!</button>
+                        <p class="text-muted"><small>You must be over 18 to sigh up to our servise. Please, drink responsibly.</small></p>
+                    </section>
+                </div>
+            </div>
+       
+    </div>
         <!-- /.callout -->
-    </div>>
+    
 
         <!-- Quotes -->
-    <div class="conteiner quotes-container">
-        <section class="blockquotes">
+    <div class="container quotes-container">
+        <section class="quotes">
             <div class="row">
                 <div class="col-12 m-5">
                     <h2 class="text-uppercase">Quotes:</h2>
@@ -151,35 +156,6 @@
             </div>
         </section>
     </div>
-        <section class="table">
-            <div class="col-12 my-5">
-               <h2 class="text-uppercase ">Mounthly favorites:</h2>
-            </div>
-            <table class="table table-bordered">
-                <tr>
-                    <th>name</th>
-                    <th>origin</th>
-                </tr>
-                <tr>
-                    <td>Proper</td>
-                    <td>Ireland</td>
-                </tr>
-                <tr>
-                    <td>Jameson</td>
-                    <td>Ireland</td>
-                </tr>
-                <tr>
-                    <td>Redbreast</td>
-                    <td>Ireland</td>
-                </tr>
-                <tr>
-                    <td>Jack Daniels</td>
-                    <td>USA</td>
-                </tr>
-
-            </table>
-
-        </section>
         <!-- /.features -->
     
 
@@ -206,18 +182,17 @@
                     <div class="form-group">
                         <label for="repeatPaswword">Repeat Password</label>
                         <input type="password" class="form-control" id="repeatPaswword" placeholder="Repeat Password">
-                      </div>
+                    </div>
                     <button type="submit" class="btn btn-success">Submit</button>
-                  </form>
+                </form>
             </div>
             
-          </div>
         </div>
-      </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </div>
+    </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,12 +1,4 @@
 
-body {
-    font-family: 'Roboto', sans-serif;
+body{
+  background-color: blue;
 }
-
-.alert-conainer {}
-
-.callout-container {}
-
-.quotes-container {}
-
-.features-container {}
