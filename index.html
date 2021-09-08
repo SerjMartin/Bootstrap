@@ -12,7 +12,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class= "navbar navbar-light bg-light navbar-expand-sm"> <!--bg-light (background-light)-->
+    <div class="container-fluid navalert-container">
+        <div class="container-fluid alert-container">
+            <div class="row d-none d-sm-block">
+                <div class="col-12">
+                    <div class="side-wide-alert alert-warning">
+                        <strong>Sales Now On!</strong>We've got a sale on. Get a 12-mounth subscription for the price of
+                        6! <a href="">See here for details!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <nav class= "navbar navbar-dark navbar-expand-sm"> <!--bg-light (background-light)-->
         <a href="/" class="navbar-brand">Whiskey Drop</a>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
@@ -40,19 +51,10 @@
         </div>              <!--(d-block and d-sm-none) will displyed only to mobile divise-->
         <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
-            <a href="/login">Sign in / Sign Up</a>
+            <a href="/login" class="btn btn--cta btn--red">Sign in / Sign Up</a>
         </div>
     </nav>
-   <div class="container alert-container">
-        <div class="row d-none d-sm-block">
-            <div class="col-12">
-                <div class="alert-warning">
-                    <strong>Sales Now On!</strong>We've got a sale on. Get a 12-mounth subscription for the price of
-                    6! <a href="">See here for details!</a>
-                </div>
-            </div>
-        </div>
-    </div> <!--mt (top margine)-->
+    </div>
     <div class="container-fluid callout-container"> <!-- Callout -->
         <div class="opaque-overlay">&nbsp;</div>
             <div class="row">
